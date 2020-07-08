@@ -27,4 +27,35 @@ var state, city, married;
 state = "Tamil Nadu";
 city = 'Chennai';
 married = true;
-console.log(married, city, state)
+console.log(firstname +' '+ lastname +' is married: '+ married + " and he is from " +city+','+state)
+
+var fullName;
+
+// Variable Mutation
+age = 34;
+fullName = firstname +' '+ lastname;
+
+// #Create alert
+// alert("My Name is: "+fullName+" and I'm "+age+" years old.");
+
+// // Prompt: Get input from user
+// var company = prompt("Which company you work for?");
+// console.log("Company name is: ",company);
+
+
+// MATH OPERATORS
+var currentYear,dob
+currentYear = 2020
+dob = currentYear - age;
+console.log(dob);
+console.log(dob * 20);
+console.log(dob / 20);
+console.log(41 % 20);
+
+// LOGICAL OPERATORS
+sangDob = 1990;
+var older = dob < sangDob;
+console.log(older);
+
+//typeof operator to get the data type of variable
+console.log(typeof sangDob); 
