@@ -118,3 +118,18 @@ if (a == '3'){
 } else if(a === 23){
     console.log("Within === condition")
 }
+
+// Challenge
+
+var teamJohn, teamMike, winnerByAvg;
+
+teamJohn = (89 + 120 + 133)/3;
+teamMike = (116 + 94 + 123)/3;
+
+if (teamJohn > teamMike) {
+    console.log("Team John is winner with score: ", teamJohn);
+} else if (teamJohn < teamMike) {
+    console.log("Team Mike is winner with score: ", teamMike);
+} else {
+    console.log("Match Tied where score of John team is: "+teamJohn+" & Mike team is: "+ teamMike);
+}
