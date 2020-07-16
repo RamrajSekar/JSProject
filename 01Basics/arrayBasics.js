@@ -9,6 +9,7 @@ var years = new Array(1986,1994,2015);
 console.log(names[0]);
 // To get values
 console.log(names);
+
 // To get length of array
 console.log(names.length);
 console.log(years.length);
