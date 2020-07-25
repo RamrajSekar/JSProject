@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Get the href from bootstrap site and the data from website to style.css file -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Javascript on Steroids</title>
+</head>
+<body>
+    <div class='container-1'>
+        <h2>Challenge 1: Your Age In Days</h2>
+        <div class="flex-box-container-1">
+            <div>
+                <button class="btn btn-primary" onclick="ageInDays()">Click Me</button>
+            </div>
+            <div>
+                <button class="btn btn-danger" onclick="reset()">Reset</button>
+            </div>
+        </div>
+        <div class="flex-box-container-1">
+            <div id="flex-box-result"></div>
+        </div>
+    </div>
+    <div class='container-2'>
+        <h2>Challenge 2: Cat Generator</h2>
+        <button class="btn btn-success" id='cat-generator' onclick="generateCat()">Generate Cats</button>
+        <!-- <div class="flex-box-container-2">
+            
+        </div> -->
+        <div class="flex-box-container-2" id='flex-cat-gen'>
+            <!-- <img src="https://api.thecatapi.com/api/images/get?format=src&type=gif&size=small">
+            <img src="https://api.thecatapi.com/api/images/get?format=src&type=gif&size=small">
+            <img src="https://api.thecatapi.com/api/images/get?format=src&type=gif&size=small">
+            <img src="https://api.thecatapi.com/api/images/get?format=src&type=gif&size=small">
+            <img src="https://api.thecatapi.com/api/images/get?format=src&type=gif&size=small">
+            <img src="https://api.thecatapi.com/api/images/get?format=src&type=gif&size=small">
+            <img src="https://api.thecatapi.com/api/images/get?format=src&type=gif&size=small"> -->
+        </div>
+        <div class='container-3'>
+            <h2>Challenge 3: Rock, Paper, Scissors</h2>
+            <div class="flex-box-rps" id="flex-box-rps-div">
+                <img id="rock" src="http://pngimg.com/uploads/stone/stone_PNG13579.png" height=150 width=150 alt="" onclick="rpsGame(this)">  <!-- this represents the arg in function to specify respective img-->
+                <img id="paper" src="http://pngimg.com/uploads/paper_sheet/paper_sheet_PNG7241.png" height=150 width=150 alt="" onclick="rpsGame(this)">
+                <img id="scissor" src="http://pngimg.com/uploads/scissors/scissors_PNG16.png" height=150 width=150 alt="" onclick="rpsGame(this)">
+            </div>
+        </div>
+    </div>
+    <script src='js/script.js'></script>
+</body>
+</html>

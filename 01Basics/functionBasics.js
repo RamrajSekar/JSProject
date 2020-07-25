@@ -37,3 +37,28 @@ var whatDoYouDo = function(job, firstName){
 
 console.log(whatDoYouDo('driver','Ramraj'));
 console.log(whatDoYouDo(job='teacher',firstName='Sangeetha'));
+
+
+// Exercise: create a function takes a name and returns hello followed by name
+
+// Without arguments
+// var msg = function(){
+//     name = prompt("What is your name?");
+//     return "Hello "+name;
+// }
+
+// With arguments
+// var msg = function(name){
+//     // name = prompt("What is your name?");
+//     return "Hello "+name;
+// }
+// console.log(msg('Mahathi'));
+
+// Exercise 1: Add two values with a func
+var result = function(a,b){
+    return a + b ;
+}
+
+// console.log(result(10,20));
+
+console.log(result('10',20)); // Note: String + int will concatenate

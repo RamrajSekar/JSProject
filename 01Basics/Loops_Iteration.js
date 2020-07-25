@@ -182,20 +182,33 @@ function calcAvg(inTip){
     return (x/(inTip.length));
 }
 
-newJohn.tipPaid();
-console.log(newJohn);
+// newJohn.tipPaid();
+// console.log(newJohn);
 
-newMark.tipPaid()
-console.log(newMark.tipAmount);
-console.log(newJohn.avgTip());
+// newMark.tipPaid()
+// console.log(newMark.tipAmount);
+// console.log(newJohn.avgTip());
 
-markAvg = calcAvg(newMark.tipAmount);
-johnAvg = newJohn.avgTip();
+// markAvg = calcAvg(newMark.tipAmount);
+// johnAvg = newJohn.avgTip();
 
-if(markAvg > johnAvg){
-    console.log(newMark.fullName+" paid highest tip of $"+markAvg);
-} else if(markAvg < johnAvg){
-    console.log(newJohn.fullName+"John paid highest tip of $"+johnAvg);
-} else{
-    console.log("Both paid equal tip amount of $"+johnAvg);
+// if(markAvg > johnAvg){
+//     console.log(newMark.fullName+" paid highest tip of $"+markAvg);
+// } else if(markAvg < johnAvg){
+//     console.log(newJohn.fullName+"John paid highest tip of $"+johnAvg);
+// } else{
+//     console.log("Both paid equal tip amount of $"+johnAvg);
+// }
+
+// WHILE LOOP
+var num = 0;
+
+while (num < 10){
+    num++;
+    console.log(num);
+}
+
+// For loop using let
+for (let i=1;i <= 10;i++){
+    console.log(i);
 }

@@ -133,3 +133,32 @@ if (teamJohn > teamMike) {
 } else {
     console.log("Match Tied where score of John team is: "+teamJohn+" & Mike team is: "+ teamMike);
 }
+
+// More conditionals, control flows(if else)
+// For prompt let will not work so use var
+// var targetAge = prompt('What is your age?');
+var targetAge = 37;
+if ((targetAge >= 18) && (targetAge <= 35)){
+    targetStatus = 'target demo';
+    console.log(targetStatus);
+} else {
+    targetStatus = 'Not my target';
+    console.log(targetStatus);
+}
+
+// Exercise: Switch
+// Differentiate betweek weekday and weekend
+var inputDay = 4;
+switch (inputDay){
+    case 0:
+        text = 'Weekend';
+        break;
+    case 6:
+        text = 'Weekend';
+        break;
+    default:
+        text = 'Weekday';
+}
+console.log(text);
+
+// Handle JSON
