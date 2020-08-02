@@ -6,14 +6,22 @@
     text-align: center;
 } */
 
-.container-1, .container-2, .contaner-3{
+.container-1, .container-2, .container-3, .container-4{
     border: 1px solid black;
     width: 75%;
     margin: 0 auto;
     text-align: center;
 }
 
-.flex-box-container-1, .flex-box-container-2, .flex-box-rps {
+.container-5 {
+    border: 1px solid black;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.flex-box-container-1, .flex-box-container-2, .flex-box-rps, .flex-box-pick-color,
+.flex-blackjack-row-1,.flex-blackjack-row-2, .flex-blackjack-row-3 {
     display: flex;
     border: 1px solid black;
     padding: 10px;
@@ -29,6 +37,14 @@
     align-items: center;
 }
 
+.flex-blackjack-row-1 div{
+    /* display: flex; */
+    border: 1px solid black;
+    padding: 10px;
+    flex: 1; /* gives equal importance for size to table */
+    height: 350px;
+    text-align: center;
+}
 /* .container-2{
     border: 1px solid black;
     width: 75%;
@@ -54,3 +70,43 @@
 .flex-box-rps img:hover{
     box-shadow: 0px 10px 50px rgba(37, 50, 103, 1);
 }
+
+.flex-blackjack-row-1,.flex-blackjack-row-2 {
+    background: url("https://frla.org/wp-content/uploads/2015/08/dark-green-gradient-e1485548829540.png") center;
+    color: #ffffff;
+}
+
+.flex-blackjack-row-1 img{
+    width: 25%;
+    padding: 10px;
+}
+
+.flex-blackjack-row-2 button{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.flex-blackjack-row-2 div{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+/* Below two ways we can style the table */
+/* table, th, td {
+    padding: 5px;
+    border: 1px solid black;
+} */
+
+.flex-blackjack-row-3 table, th, td{
+    border: 1px solid black;
+    padding: 5px;
+}
+
+/* .flex-blackjack-row-3{
+    display: flex;
+    width: 100%;
+    margin: 0;
+    border: 1px solid black;
+    padding: 10px;
+    align-items: center;
+} */
