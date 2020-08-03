@@ -2,43 +2,63 @@
 <html lang='en'>
     <head>
         <meta charset="UTF-8">
-        <title>01 - Java Script Basics</title>
+        <!-- Get the href from bootstrap site and the data from website to style.css file -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Ramraj Sekar Portfolio</title>
     </head>
     <body>
-        <h1>Part 1: Java Script Basics</h1>
-        <h2 id='someText'></h2>
-        <h2 id='age'></h2>
-    </body>
-    <div id='age-calc'>
-        <a href="static/ageChallenge.html">Age Challenge</a>
+    <div class='basic-container-1'>
+        <h1>My Portfolio</h1>
+        <div id='flexbox-user-pic'>
+            <img id="rock" src="images/me.jpg" height=200 width=150 alt="">
+        </div>
+        <div id='flexbox-user-info'>
+            <h1>About Me</h1>
+            <h4>
+                <p>
+                    I'm a self tought software developer and tester 
+                    with around 10 year of exeperience in Software Industry.
+                </p>
+                <a href="https://www.linkedin.com/in/ramraj-sekar/" add target="_blank">My LinkedIn Profile</a>
+            </h4>
+            
+        </div>
     </div>
-    <!-- <script src="HelloWorld.js"></script>
-    <script src="Operators.js"></script>-->
-    <!-- <script src="decision_bool.js"></script> -->
-    <!-- <script src="functionBasics.js"></script> -->
-    <!-- <script src="arrayBasics.js"></script> -->
-    <!-- <script src="objectBasics.js"></script> -->
-    <!-- <script src="Loops_Iteration.js"></script> -->
-    <!-- <script src="addValHtml.js"></script> -->
-    <!-- <script src="numBasics.js"></script> -->
-    <!-- <script src="dataTypes.js"></script> -->
-    <!-- <script>
-        let a = [
-        {
-            "name": "Ram",
-            "age": 33,
-            "city": "Chennai"
-        },
-        {
-            "name": "Sangee",
-            "age": 23,
-            "city": "Bangalore"
-        }
-    ]
-        // console.log(students);
-        let students = JSON.stringify(a);
-        console.log(JSON.parse(students)[0].name); // To read json file
+    <div class='basic-container-2'>   
+        <div id='age-calc'>
+            <h1>My Learnings</h1>
+            <a href="static/javaScriptChallenges.html">Learn Java Script By Solving Challenges</a>
+        </div>
+        <!-- <script src="HelloWorld.js"></script>
+        <script src="Operators.js"></script>-->
+        <!-- <script src="decision_bool.js"></script> -->
+        <!-- <script src="functionBasics.js"></script> -->
+        <!-- <script src="arrayBasics.js"></script> -->
+        <!-- <script src="objectBasics.js"></script> -->
+        <!-- <script src="Loops_Iteration.js"></script> -->
+        <!-- <script src="addValHtml.js"></script> -->
+        <!-- <script src="numBasics.js"></script> -->
+        <!-- <script src="dataTypes.js"></script> -->
+        <!-- <script>
+            let a = [
+            {
+                "name": "Ram",
+                "age": 33,
+                "city": "Chennai"
+            },
+            {
+                "name": "Sangee",
+                "age": 23,
+                "city": "Bangalore"
+            }
+        ]
+            // console.log(students);
+            let students = JSON.stringify(a);
+            console.log(JSON.parse(students)[0].name); // To read json file
 
-    </script> -->
-    <!-- <script src="static/js/script.js"></script> -->
+        </script> -->
+        <!-- <script src="static/js/script.js"></script> -->
+    </body>
+    </div>
 </html>

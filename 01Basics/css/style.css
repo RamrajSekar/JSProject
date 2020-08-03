@@ -1,0 +1,25 @@
+.basic-container-1{
+    border: 1px solid black;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: blanchedalmond;
+}
+
+.basic-container-2{
+    border: 1px solid black;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: blanchedalmond;
+    display: grid;
+}
+
+.flexbox-user-pic {
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;  /*by default its row*/
+    justify-content: space-around;
+}
